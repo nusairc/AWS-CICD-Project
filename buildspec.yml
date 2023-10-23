@@ -15,8 +15,7 @@ phases:
       - echo building the Jar file
       - mvn clean install
       - echo Building the Docker image...
-      # - docker build -t $REPOSITORY_URI:latest .
-      - docker build -t aws-project-sample:latest .
+      - docker build -t $REPOSITORY_URI:latest .
       # - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
       - docker tag aws-project-sample:latest 947437598996.dkr.ecr.us-east-1.amazonaws.com/aws-project-sample:$IMAGE_TAG
   post_build:
