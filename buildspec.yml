@@ -4,7 +4,6 @@ phases:
     commands:
       - echo Logging in to Amazon ECR....
       - aws --version
-      #- $(aws ecr get-login --region ap-south-1 --no-include-email)
       - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 947437598996.dkr.ecr.us-east-1.amazonaws.com
       - # Replace with this to your repository URI
       - REPOSITORY_URI=947437598996.dkr.ecr.us-east-1.amazonaws.com/aws-project-sample
@@ -16,16 +15,14 @@ phases:
       - mvn clean install
       - echo Building the Docker image...
       - docker build -t $REPOSITORY_URI:latest .
-      # - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
-      - docker tag aws-project-sample:latest 947437598996.dkr.ecr.us-east-1.amazonaws.com/aws-project-sample:$IMAGE_TAG
+      - docker tag $REPOSITORY_URI:latest 
+      # $REPOSITORY_URI:$IMAGE_TAG
   post_build:
     commands:
       - echo Build completed on `date`
       - echo pushing to repo
-      # - docker push $REPOSITORY_URI:latest
-      - docker push 947437598996.dkr.ecr.us-east-1.amazonaws.com/aws-project-sample:latest
+      - docker push $REPOSITORY_URI:latest
       # - docker push $REPOSITORY_URI:$IMAGE_TAG
-      - docker push 947437598996.dkr.ecr.us-east-1.amazonaws.com/aws-project-sample:$IMAGE_TAG
       - echo Writing image definitions file...
       # Give container name
       - DOCKER_CONTAINER_NAME=aws-project-sample
