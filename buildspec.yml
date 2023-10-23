@@ -18,7 +18,7 @@ phases:
       # - docker build -t $REPOSITORY_URI:latest .
       - docker build -t aws-project-sample .
       # - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
-      - docker tag aws-project-sample:latest 947437598996.dkr.ecr.us-east-1.amazonaws.com/aws-project-sample:latest
+      - docker tag aws-project-sample:latest 947437598996.dkr.ecr.us-east-1.amazonaws.com/aws-project-sample:$IMAGE_TAG
   post_build:
     commands:
       - echo Build completed on `date`
