@@ -2,6 +2,11 @@
 
 This project demonstrates the creation of a fully automated deployment pipeline for a Docker containerized Spring Boot application using AWS services. It integrates AWS CodeBuild, AWS CodeDeploy, and AWS CodePipeline for continuous integration and continuous deployment (CI/CD). Additionally, it incorporates Amazon Simple Notification Service (SNS) and Amazon Simple Queue Service (SQS) to provide real-time deployment status notifications.
 
+
+![1698210690862](https://github.com/nusairc/AWS-CICD-Project/assets/98309865/4b3914de-8277-4b8b-b5a9-e58fdc64fd11)
+
+
+
 Project Steps
 
 Step 1: Code Setup ,
