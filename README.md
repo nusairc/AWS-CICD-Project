@@ -8,7 +8,7 @@ This project demonstrates the creation of a fully automated deployment pipeline 
 ## Important Note
 
 While you're welcome to explore and use the files and code provided, I strongly encourage you to understand the concepts behind it.
-Copying and pasting the code without understanding its workings may limit your ability to adapt and troubleshoot in different contexts. Take the time to explore the documentation of AWS DevOps Tools , AWS SQS & SNS. Experiment with different configurations, make changes, and observe the effects. AWS CICD is a powerful approach, and it's essential to grasp the fundamentals before applying it to real-world scenarios
+Copying and pasting the code without understanding its workings may limit your ability to adapt and troubleshoot in different contexts. Take the time to explore the documentation of AWS DevOps Tools , AWS ECS , AWS ECR , AWS SQS & SNS. Experiment with different configurations, make changes, and observe the effects. AWS CICD is a powerful approach, and it's essential to grasp the fundamentals before applying it to real-world scenarios
 
 Project Steps
 
