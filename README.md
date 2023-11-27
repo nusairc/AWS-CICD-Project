@@ -1,4 +1,4 @@
-### Spring Boot Application - AWS CI/CD Deployment Pipeline
+### Spring Boot Application - AWS CI/CD Deployment Pipeline Project
 
 This project demonstrates the creation of a fully automated deployment pipeline for a Docker containerized Spring Boot application using AWS services. It integrates AWS CodeBuild, AWS CodeDeploy, and AWS CodePipeline for continuous integration and continuous deployment (CI/CD). Additionally, it incorporates Amazon Simple Notification Service (SNS) and Amazon Simple Queue Service (SQS) to provide real-time deployment status notifications.
 
@@ -8,7 +8,7 @@ This project demonstrates the creation of a fully automated deployment pipeline 
 ## Important Note
 
 While you're welcome to explore and use the files and code provided, I strongly encourage you to understand the concepts behind it.
-Copying and pasting the code without understanding its workings may limit your ability to adapt and troubleshoot in different contexts. Take the time to explore the documentation of AWS DevOps Tools , AWS ECS , AWS ECR , AWS SQS & SNS. Experiment with different configurations, make changes, and observe the effects. AWS CICD is a powerful approach, and it's essential to grasp the fundamentals before applying it to real-world scenarios
+Cloning the repo without understanding its workings may limit your ability to adapt and troubleshoot in different contexts. Take the time to explore the documentation of AWS DevOps Tools , AWS ECS , AWS ECR , AWS SQS & SNS. Experiment with different configurations, make changes, and observe the effects. AWS CI-CD is a powerful approach, and it's essential to grasp the fundamentals before applying it to real-world scenarios
 
 Project Steps
 
