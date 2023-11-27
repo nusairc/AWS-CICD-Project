@@ -5,7 +5,10 @@ This project demonstrates the creation of a fully automated deployment pipeline 
 
 ![1698210690862](https://github.com/nusairc/AWS-CICD-Project/assets/98309865/4b3914de-8277-4b8b-b5a9-e58fdc64fd11)
 
+## Important Note
 
+While you're welcome to explore and use the files and code provided, I strongly encourage you to understand the concepts behind it.
+Copying and pasting the code without understanding its workings may limit your ability to adapt and troubleshoot in different contexts. Take the time to explore the documentation of AWS DevOps Tools , AWS SQS & SNS. Experiment with different configurations, make changes, and observe the effects. AWS CICD is a powerful approach, and it's essential to grasp the fundamentals before applying it to real-world scenarios
 
 Project Steps
 
@@ -52,6 +55,10 @@ Real-time notifications about deployment statuses are essential for monitoring a
     Configured the CodePipeline to send SNS notifications on deployment status changes, ensuring that you are promptly informed of any updates or issues in the pipeline.
 
 This project provides a comprehensive example of setting up a robust CI/CD pipeline for a Spring Boot application on AWS. For a more detailed guide and visual walkthrough, refer to the [video tutorial I have refered .](https://youtu.be/ARGmrYFfv44?si=R25lEtDO-CUrN4TB)
+
+## Cleaning Up
+
+Remember to stop or terminate your AWS resources after use to avoid unnecessary charges. 
 
 Feel free to clone this repository as a foundation for your own projects. Just make sure to update the AWS repository name and account ID to match your AWS environment. for any queries related to project reach me on nusairtech@gmail.com
 
