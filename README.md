@@ -44,7 +44,7 @@ Step 4: Creating a Code Pipeline
 
 This step involves creating an AWS CodePipeline to automate the deployment process whenever changes are pushed to the GitHub repository. A continuous delivery pipeline ensures that the application is deployed efficiently and reliably.
 
-Watch the video tutorial for a detailed walkthrough of this step.
+Watch the video tutorial given below for a detailed walkthrough of this step.
 Step 5: Configuring SNS & SQS for Notifications
 
 Real-time notifications about deployment statuses are essential for monitoring and troubleshooting. In this step, we set up SNS and SQS for notifications:
@@ -60,5 +60,5 @@ This project provides a comprehensive example of setting up a robust CI/CD pipel
 
 Remember to stop or terminate your AWS resources after use to avoid unnecessary charges. 
 
-Feel free to clone this repository as a foundation for your own projects. Just make sure to update the AWS repository name and account ID to match your AWS environment. for any queries related to project reach me on nusairtech@gmail.com
+Feel free to clone this repository as a foundation for your own projects. Just make sure to update the AWS repository name and account ID to match your AWS environment. for any queries related to project reach me on nusairtech@gmail.com or www.linkedin.com/in/nusair
 
