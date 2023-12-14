@@ -60,5 +60,5 @@ This project provides a comprehensive example of setting up a robust CI/CD pipel
 
 Remember to stop or terminate your AWS resources after use to avoid unnecessary charges. 
 
-Feel free to clone this repository as a foundation for your own projects. Just make sure to update the AWS repository name and account ID to match your AWS environment. for any queries related to project reach me on nusairtech@gmail.com or www.linkedin.com/in/nusair
+Feel free to clone this repository as a foundation for your own projects. Just make sure to update the AWS repository name and account ID to match your AWS environment. for any queries related to project reach me on nusairtech@gmail.com or www.linkedin.com/in/nusair 
 
